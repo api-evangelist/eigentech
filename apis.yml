@@ -1,7 +1,27 @@
 aid: eigentech
-name: eigentech
-description: eigentech is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eigentech.png
+name: Eigentech
+description: Eigentech (eigentech.ai) is an artificial intelligence technology company,
+  reported to have been founded around 2016 and headquartered in Hangzhou, China, that
+  applies AI and machine learning to business and industrial domains. Its platform is
+  positioned to help enterprises improve operational efficiency, optimize workflows,
+  and strengthen data-driven decision-making by embedding AI into existing business
+  processes. Eigentech is a portfolio company of Qiming Venture Partners and was added
+  to the API Evangelist network as a lead for the enrichment pipeline. NOTE - as of the
+  latest enrichment pass the company website (https://eigentech.ai) does not resolve and
+  no public developer, documentation, or API surface could be reached, so no API artifacts
+  could be harvested without fabrication.
 url: https://raw.githubusercontent.com/api-evangelist/eigentech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,18 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-domain-status: unreachable
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Enterprise AI
+- Automation
+- China
+- Qiming Portfolio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,8 @@ maintainers:
 common:
 - type: Website
   url: https://eigentech.ai
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
